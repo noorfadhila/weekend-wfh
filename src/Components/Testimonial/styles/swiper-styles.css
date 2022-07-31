@@ -1,0 +1,80 @@
+.swiper {
+  width: 100%;
+  height: 155px !important;
+  color:black;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 247px !important;
+  height: 140px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 50%;
+  height: 300px;
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+}
+
+.swiper-wrapper {
+  width: 50% !important;
+  left: -200px !important;
+  z-index: 0 !important;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 0px;
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.swiper-button-prev{
+  left: -100px !important;
+}
+
+.swiper-button-next{
+  right: -100px !important;
+}
+
+.swiper-button-prev::after{
+  background-image: url('../../../../public/images/icon/left-arrow.png');
+}
+
+.swiper-button-next::after{
+  background-image: url('../../../../public/images/icon/right-arrow.png');
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  content: "" !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .swiper {
+    width: 100%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .swiper-wrapper {
+    left: -120px !important;
+  }
+  .swiper-button-prev, .swiper-button-next{
+      display: none !important;
+  }
+}
