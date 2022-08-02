@@ -8,6 +8,7 @@ export const GlobalStyles = createGlobalStyle`
         background-color: black;
         color: #ffffff;
         font-size: 16px;
+        overflow-x: hidden;
     }
 
     p{

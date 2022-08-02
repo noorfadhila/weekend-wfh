@@ -50,10 +50,10 @@ function HelpTricksContainer() {
 
     return (
         <>
-            <Highlight.Title className="mt-5">
-                Help &amp; Tips
-            </Highlight.Title>
             <HelpTricks>
+                <Highlight.Title className="mt-5">
+                    Help &amp; Tips
+                </Highlight.Title>
                 <Row>
                     {tricksContent}
                 </Row>

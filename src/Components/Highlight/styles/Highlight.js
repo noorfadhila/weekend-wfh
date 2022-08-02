@@ -17,6 +17,7 @@ export const Title = styled.h2`
     
     @media (max-width: 600px){
         text-align: left;
+        padding: 30px 0px;
     }
 `;
 
